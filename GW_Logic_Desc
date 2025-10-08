@@ -91,6 +91,7 @@ Arduino:
 •	Here's a cookie if you read this far: 🍪
 	Bit Module
 	Compares 'Bits' from inputs 'A' & 'B' and outputs signal 'A' if the operator statement is true. Input 'B' will save the number of bits from its most recent signal. To reset it, activate input 'A' and send a blank signal (one that has not passed through another module or node) to input 'B'. The operator can be configured by linking a Cable Adapter, Cable, and Analog Dial/Module to input 'A'. If using a relational operator, output 'B' (located on the side of the module) can be used as an 'else' output and will output signal 'A' if the operator statement is false.
+ Additional information: 0.0 - 0.8 = ">", 0.9 - 0.14 = "≥", 0.15 - 0.2 = "<", 0.21 - 0.26 = "≤", 0.27 - 0.32 = "=", 0.33 - 0.38 = "≠", 0.39 - 0.44 = "+", 0.45 - 0.49 = "-", 0.5 - 0.55 = "÷", 0.56 - 0.61 = "×", 0.62 - 0.67 = "∧", 0.68 - 0.73 = "[💾]", 0.74 - 0.79 = "|🔒|", 0.8 - 0.85 = "⟳⤨", 0.86 - 0.91 = "|x|", 0.92 - 0.97 = "⟳≈", 0.98 - 0.1 = "⟳%"
 	Bit Node
 	Outputs a signal with a set amount of 'Bits' added to its input signal. If the input signal is hot carrying any Bits, it will be given the number that is displayed on the node. This number can be configured using an Analog Dial/Module, Cable, and 2 Cable Adapters. To change the number to negative or positive, it's the same setup as if you were changing the number, but use a Switch instead of an Analog Dial/Module.
 	Bit Splitter Module
